@@ -13,6 +13,9 @@ Um supermercado, através de cartões de fidelidade, possui alguns dados básico
   <a href="https://www.linkedin.com/in/zeygler-oliveira-a021a92a4/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
 </p>
 
+
+![pairplot](imagens/pca_clusters_pairplott.png)
+
 ## Objetivos
 
 
@@ -56,9 +59,9 @@ O dataset utilizado é o contido no arquivo [`Mall_Customers.csv`](dados/Mall_Cu
 
 Com o pipeline realizando pré-processamento, PCA e K-Means, a base foi segmentada em 4 clusters, como mostrado nas figuras abaixo:
 
-![pairplot](imagens/pairplot.png)
+![grafico_3d](imagens/pca_grafico_3d.png)
 
-![boxplot](imagens/boxplot.png)
+![boxplot](imagens/pca_clusters_boxplott.png)
 
 - Cluster 0 - pontuação de gastos moderada, renda baixa, idade alta
 - Cluster 1 - pontuação de gastos alta, renda baixa, idade jovem
