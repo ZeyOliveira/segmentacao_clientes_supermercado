@@ -17,15 +17,16 @@ Um supermercado, através de cartões de fidelidade, possui alguns dados básico
 ![pairplot](imagens/pca_clusters_pairplott.png)
 
 ## Objetivos
-
+Realizar a Segmentação dos Cliente com base nos dados de compra, em circustâncias reais o resultado do projeto poderia ser usado para formular estratégias de negócio.
 
 
 Objetivos detalhados:
 
-- 
-- 
-- 
-- 
+- Fazer o pré-processamento dos dados, tendo em vista que alguns algoritmos de clusterização são sensíveis a escala.
+- Avaliar a separação em grupos dos dados que foram produzidos como resultado da clusterização.
+- Desenvolver gráficos que podem ser utilizados em uma possível apresentação.
+- Facilitar o entendimento dos dados com o objetivo de obter insights para formular estratégias.
+- Boas práticas de programação e organização de códigos e notebooks. Desenvolver o conhecimento e a aplicabilidade da biblioteca SciKit-Learn, a exemplo dos pipelines.
 
 ## Estrutura do repositório
 
@@ -33,12 +34,14 @@ O repositório está estruturado da seguinte forma:
 
 ```
 ├── dados
+├── imagens
 ├── models
 ├── notebooks
 ├── reports
 ```
 
 - Na pasta `dados` estão os dados utilizados no projeto. O arquivo `Mall_Customers.csv` é o dataset utilizado originalmente. Os demais arquivos são os datasets gerados durante o projeto.
+- Na pasta `imagens` estão as imagens dos gráficos desenvolvidos durante o projeto.
 - Na pasta `models` estão os modelos gerados durante o projeto. 
 - Na pasta `notebooks` estão os notebooks organizados do projeto:
   - [`projeto_supermercado_eda_01.ipynb`](notebooks/projeto_supermercado_eda_01.ipynb): notebook com a análise exploratória dos dados usando [ydata-profiling](reports/eda_supermercado.html) e Seaborn e você pode baixar o arquivo 'html' e abrir na guia do seu navagador e visualizar o resultado.
